@@ -31,7 +31,6 @@
         <div class="col-md-7">
           <div class="row">
             <div class="col-sm-12" style="padding-top:0px; padding-bottom:0px;  padding-left:20px; padding-right:0px;">
-              <h2>About </h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

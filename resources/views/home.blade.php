@@ -78,7 +78,7 @@
 
 			<div class="col-md-3">
 				<div class="card">
-					<img src="images/octane.jpeg" width="250" height="170">
+					<img src="{{asset('mytemplate/images/octane.jpeg')}}" width="250" height="170">
 
 					<div class="card-body text-center">
 						<p class="my-2">Octane</p>
@@ -100,7 +100,7 @@
 
 			<div class="col-md-3">
 				<div class="card">
-					<img src="images/preminum.jpeg" width="250" height="170">
+					<img src="{{asset('mytemplate/images/preminum.jpeg')}}" width="250" height="170">
 
 					<div class="card-body text-center">
 						<p class="my-2">Preminum</p>
@@ -123,7 +123,7 @@
 
 			<div class="col-md-3">
 				<div class="card">
-					<img src="images/disel.jpeg"  width="250" height="170">
+					<img src="{{asset('mytemplate/images/disel.jpeg')}}"  width="250" height="170">
 
 					<div class="card-body text-center">
 						<p class="my-2">Disel</p>
@@ -146,7 +146,7 @@
 
 			<div class="col-md-3">
 				<div class="card">
-					<img src="images/engineoil.png" class="img-fluid">
+					<img src="{{asset('mytemplate/images/engineoil.png')}}" class="img-fluid">
 
 					<div class="card-body text-center">
 						<p class="my-2">Engine Oil</p>
@@ -181,7 +181,7 @@
 
 			<div class="col-md-3">
 				<div class="card">
-					<img src="images/water.jpg" width="260" height="170">
+					<img src="{{asset('mytemplate/images/water.jpg')}}" width="260" height="170">
 
 					<div class="card-body text-center">
 						<p class="my-2">Water</p>
@@ -193,7 +193,7 @@
 
 			<div class="col-md-3">
 				<div class="card">
-					<img src="images/pasoe.jpg" width="250" height="170">
+					<img src="{{asset('mytemplate/images/pasoe.jpg')}}" width="250" height="170">
 
 					<div class="card-body text-center">
 						<p class="my-2">Longyi</p>
@@ -205,7 +205,7 @@
 
 			<div class="col-md-3">
 				<div class="card">
-					<img src="images/shirt.jpeg"  width="250" height="170">
+					<img src="{{asset('mytemplate/images/shirt.jpeg')}}"  width="250" height="170">
 
 					<div class="card-body text-center">
 						<p class="my-2">Coat</p>
@@ -217,7 +217,7 @@
 
 			<div class="col-md-3">
 				<div class="card">
-					<img src="images/mobile.jpeg" width="250" height="170">
+					<img src="{{asset('mytemplate/images/mobile.jpeg')}}" width="250" height="170">
 
 					<div class="card-body text-center">
 						<p class="my-2">Mobile</p>
