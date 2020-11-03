@@ -1,35 +1,46 @@
-=> working with data
--create model and migration
--add columns into migration
--add fillable into odel
--create database in phpmyadmin
-config database in .env
-restart serve
--migrate
+=> Working with Data
+  - create model and migration
+  - add columns into migration
+  - add fillable into model
+  - create database in phpmyadmin
+  - config database in .env
+  - restart serve
+  - migrate
 
-=>CRUD (create, read,update,delete)
--show form (input) =>
--store into table  ->process (post)
+=> CRUD (Create , Read, Update, Delete)
+  1. show form (inputs) => 
+  2. store into table -> process (post)
 
--show data with table (all)=>get (Done)
-_show related data with custom ui=>
+  3. show datas with table (All) => get (DONE)
+  4 show related data with custom ui => 
 
-_show form with old value=>
--update data in table->process (put)
+  5. show form with old value  => 
+  6. update data in table -> process (put)
 
--delete ralated data->process (delete)
+  7. delete related data -> process (delete)
 
-=>CRUD Process coding
--route(resource)// 7(get,post,push,delete)
--controller (resouce,connect related model class)
--call route list
--show all data
-	-index
-	-Student::all()
-	-dd
-	-return view ->compact()
+=> CRUD Process Coding
+  - route (resource) // 7 (get, post, put, delete)
+  - controller (resource, connect related model class)
+  - call route list
+  - show all datas
+    - index
+    - Student::all()
+    - dd
+    - return view -> compact()
+  - create blades
+    - folder (group)
 
--create blades
-	-folder (group)
+=> Relationships
 
--
+  - Item Management
+    - items
+    - categories
+    - subcategories
+    - brands
+
+  - Order Mangament
+    - orders
+    - orderdetails (order_id, item_id)
+
+

@@ -90,7 +90,13 @@
             <a class="nav-link" href="{{route('aboutpage')}}">About</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="post.html">Sample Post</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="{{route('contactpage')}}">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{route('student.index')}}">Student List</a>
           </li>
 
           <li class="nav-item dropdown">
